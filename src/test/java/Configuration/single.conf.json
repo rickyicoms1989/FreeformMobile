@@ -1,0 +1,35 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "eldercerrato3",
+  "key": "kTN3uKCew9NSNqk5AdBh",
+  "BrowserStack":null,
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "project": "Test",
+    "browserstack.video":"true", 
+    "app":"/Users/rickycasco/Downloads/freeform.apk",
+    "realMobile": "true"
+  },
+
+  "environments": 
+  {
+    "Android": {
+      "browserName": "android",
+      "os_version": "8.0",
+      "device": "Samsung Galaxy S8",    
+      "deviceName":"Samsung Galaxy S8",
+      "platformName": "Android",
+      "platformVersion": "8.0"
+    },
+    "IOS": {
+      "browserName": "ios",
+      "os_version": "12.0",
+      "deviceName":"iPhone 7",
+      "platformName": "IOS",
+      "platformVersion":"12.0",
+      "deviceOrientation":"portrait"
+    }
+    		
+  }
+}

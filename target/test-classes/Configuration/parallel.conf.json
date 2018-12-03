@@ -1,0 +1,24 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "eldercerrato3",
+  "key": "kTN3uKCew9NSNqk5AdBh",
+ "capabilities": {
+    "browserstack.debug": true,
+    "project": "Test",
+    "browserstack.video":"true", 
+    "app":"/Users/rickycasco/Downloads/freeform.apk",  
+    "realMobile": "true"
+  },
+
+  "environments": 
+  {
+    "chrome": {
+      "browserName": "android",
+      "os_version": "8.0",
+      "device": "Samsung Galaxy S8",    
+      "deviceName":"Samsung Galaxy S8",
+      "platformName": "Android",
+      "platformVersion": "8.0"
+    } 		
+ 	}
+}

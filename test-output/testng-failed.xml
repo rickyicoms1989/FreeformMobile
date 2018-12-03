@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Parallel]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="AndroidTest(failed)">
+    <parameter name="environment" value="Android"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="demo.FreeForminit">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Signin"/>
+        </methods>
+      </class> <!-- demo.FreeForminit -->
+    </classes>
+  </test> <!-- AndroidTest(failed) -->
+</suite> <!-- Failed suite [Parallel] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="4" parallel="tests">
+    <test name="AndroidTest">
+        <parameter name="config" value="single.conf.json"/>
+        <!--chrome  --><parameter name="environment" value="Android"/>
+        <classes>
+		    <class name="demo.FreeForminit"/>						                         
+        </classes>
+    </test>
+</suite>
